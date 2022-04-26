@@ -79,5 +79,6 @@ $aLang = [
     'OXPS_AMAZONPAY_RESULT'                  => 'Ergebnis',
 
     'OXPS_AMAZONPAY_PAYTYPE'            => 'AmazonPay Checkout Type',
-    'HELP_OXPS_AMAZONPAY_PAYTYPE'       => 'Auswahl Lieferadresse über Amazon Pay (PayAndShip) oder nur Zahlung über Amazon Pay (PayOnly)'
+    'HELP_OXPS_AMAZONPAY_PAYTYPE'       => 'Auswahl Lieferadresse über Amazon Pay (PayAndShip) oder nur Zahlung über Amazon Pay (PayOnly)',
+    'AMAZON_PAY_REMARK'                 => 'Amazon Pay Mitteillung:'
 ];
