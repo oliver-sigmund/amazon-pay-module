@@ -162,7 +162,7 @@ class Order extends Order_parent
         return 0; // disable validation
     }
 
-    protected function updateAmazonPayOrderStatus($amazonPayStatus, $data = null)
+    public function updateAmazonPayOrderStatus($amazonPayStatus, $data = null)
     {
         switch ($amazonPayStatus) {
             case "AMZ_PAYMENT_PENDING":
