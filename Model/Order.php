@@ -224,7 +224,7 @@ class Order extends Order_parent
     public function getAmazonService(): AmazonService
     {
         if (empty($this->amazonService)) {
-            $this->setAmazonService(oxNew(AmazonService::class));
+            $this->setAmazonService(OxidServiceProvider::getAmazonService());
             return $this->amazonService;
         }
         return $this->amazonService;
